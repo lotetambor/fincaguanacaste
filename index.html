@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+  <meta charset="UTF-8">
+  <title>Finca en Guanacaste</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png">
+</head>
 
+<body>
+<header>
+  <h1>PROPIEDAD EN VENTA</h1>
+  <h2>FINCA EN GUANACASTE</h2><br>
+</header>
+
+<section class="descripcion">
+  <p>Propiedad ubicada en el área del casco central de Tambor en Alajuela. Zona en constante desarrollo y proyectos activos.</p><br>
+
+    <p><b>*** USO DE SUELO ***</b></p>
+    <p><i>De acuerdo con el Mapa de Zonificación del Plan Regulador Urbano del Cantón Central de la Provincia de Alajuela,<br>
+      esta propiedad se encuentra ubicada en Zona clasificada por la Municipalidad como:<br>
+      <b>Subzona Residencial Alta Densidad.</b></i></p><br>
+      
+    <p>A pocos metros de la avenida principal, comandancia, iglesia, escuelas y comercios.</p>
+
+    <!-- Botón Google Maps -->
+    <a href="https://maps.app.goo.gl/YyHDxTTvXHzpSoj69" target="_blank" class="google-maps-button">Ver ubicación en Google Maps</a>
+
+    <h3><strong>_______________________________</strong></h3>
+
+    <h3 class="precio">PRECIO: $ 123,456.78</h3>
+    <p>Nos interesa escuchar su oferta. No dude en hacer una propuesta de compra, y con gusto será considerada.</p>
+
+    <p>-------</p>
+
+    <p>Teléfono / WhatsApp: 6106-6267</p>
+    <p><i>Feel free to call us. We speak English!</i> </p>
+    <h3><strong>_______________________________</strong></h3>
+
+</section>
+
+<h3 class="galeria_titulo">GALERÍA DE IMÁGENES Y VIDEO</h3>
+<p class="guardar"><i>Si desea guardar las imágenes, puede hacerlo con click derecho y seleccionando la opción de descarga.</i></p>
+
+    <!-- Video en YouTube -->
+<section class="youtube">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Vg9q0Q-3LG4?si=i5RCUQ4dpcDD_CXc" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen></iframe>
+</section>
+
+    <!-- Galeria de Fotos -->
+<section class="gallery">
+  <img src="images/" alt="Foto" onclick="openModal('images/Limites.png')">
+  <img src="images/" alt="Foto" onclick="openModal('images/Satelital.png')">
+  <img src="images/" alt="Foto" onclick="openModal('images/Satelital 2.png')">
+  <img src="images/" alt="Foto" onclick="openModal('images/Frente.JPEG')">
+  <img src="images/" alt="Foto" onclick="openModal('images/Frente 1.JPEG')">
+  <img src="images/" alt="Foto" onclick="openModal('images/Lateral DER.JPEG')">
+  <img src="images/" alt="Foto" onclick="openModal('images/Frente IZQ.JPEG')">
+  <img src="images/" alt="Foto" onclick="openModal('images/Frente 2.JPEG')">
+  <img src="images/" alt="Foto" onclick="openModal('images/Vista Iglesia.JPEG')">
+</section>
+
+    <!-- Imagenes Modal -->
+<div id="imageModal" class="modal">
+  <span id="closeModalBtn" class="close-modal-btn" onclick="closeModal()">Ir Atrás</span>
+  <img id="modalImage" class="modal-content">
+</div>
+
+    <!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+      <div class="contact-info">
+          <h4><strong>INFORMACIÓN DE CONTACTO</strong></h4>
+          <p>Teléfono / WhatsApp: 6106-6267</p>
+          <p><i>Feel free to call us. We speak English!</i> </p>
+      </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
