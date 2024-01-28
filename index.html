@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Finca en Guanacaste</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style-slider.css">
   <link rel="icon" href="images/favicon.png">
 </head>
 
@@ -52,16 +53,83 @@
 
     <!-- Galeria de Fotos -->
 <section class="gallery">
-  <img src="images/" alt="Foto" onclick="openModal('images/Limites.png')">
-  <img src="images/" alt="Foto" onclick="openModal('images/Satelital.png')">
-  <img src="images/" alt="Foto" onclick="openModal('images/Satelital 2.png')">
-  <img src="images/" alt="Foto" onclick="openModal('images/Frente.JPEG')">
-  <img src="images/" alt="Foto" onclick="openModal('images/Frente 1.JPEG')">
-  <img src="images/" alt="Foto" onclick="openModal('images/Lateral DER.JPEG')">
-  <img src="images/" alt="Foto" onclick="openModal('images/Frente IZQ.JPEG')">
-  <img src="images/" alt="Foto" onclick="openModal('images/Frente 2.JPEG')">
-  <img src="images/" alt="Foto" onclick="openModal('images/Vista Iglesia.JPEG')">
+  <img src="images/green7.jpg" alt="Foto" onclick="openModal('images/green7.jpg')">
+  <img src="images/green8.jpg" alt="Foto" onclick="openModal('images/green8.jpg')">
+  <img src="images/green9.jpg" alt="Foto" onclick="openModal('images/green9.jpg')">
+  <img src="images/green10.jpg" alt="Foto" onclick="openModal('images/green10.jpg')">
+  <img src="images/green11.jpg" alt="Foto" onclick="openModal('images/green11.jpg')">
+  <img src="images/green12.jpg" alt="Foto" onclick="openModal('images/green12.jpg')">
+  <img src="images/green13.jpg" alt="Foto" onclick="openModal('images/green13.jpg')">
+  <img src="images/sunset.jpg" alt="Foto" onclick="openModal('images/sunset.jpg')">
+  <img src="images/notice.jpg" alt="Foto" onclick="openModal('images/notice.jpg')">
 </section>
+
+<h3 class="galeria_titulo">CARRETE DE FOTOS</h3>
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="images/green1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="images/green2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="images/green3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="images/green4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="images/green5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="images/green6.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/green1.jpg" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/green2.jpg" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/green3.jpg" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/green4.jpg" style="width:100%" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/green5.jpg" style="width:100%" onclick="currentSlide(5)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/green6.jpg" style="width:100%" onclick="currentSlide(6)">
+    </div>
+  </div>
+</div>
 
     <!-- Imagenes Modal -->
 <div id="imageModal" class="modal">
